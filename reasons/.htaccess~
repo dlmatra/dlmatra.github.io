@@ -1,0 +1,7 @@
+AuthUserFile /data/wdocs/lists/lmatra/.REASONSpasswordfile
+AuthGroupFile /dev/null
+AuthName "Welcome to the REsolved ALMA and SMA Observations of Nearby Stars (REASONS) survey website. 'Speak, friend, and enter'"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

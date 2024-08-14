@@ -1,0 +1,7 @@
+AuthUserFile /data/wdocs/lists/lmatra/.REASONSpasswordfile
+AuthGroupFile /dev/null
+AuthName "My Users"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
